@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <tittle><b>BTVN 12A5</b></tittle>
+        <style>
+        img{position:relative;
+              height:200px;
+               width: auto}
+        video{position:relative;
+               height: 300px;
+               left:75px;
+            width: auto}      
+                    td{
+                        font-size: 18px;
+                    }
+                    th{
+                        font-size: 20px;
+                    }
+            h1 {text-align: center;} 
+            h2 {text-align:center;} 
+            h1 {background-color: aquamarine;}  
+            h2 {background-color: lemonchiffon;}   
+
+        </style>
+    </head>
+    <body>
+        <h1>Trường THPT TÂN AN<br>Tên: Phan Ngọc Diễm Quỳnh<br>Lớp: 12A5</h1>
+        <h2 strong style="color:red;" align="center">Danh sách sở thích</h2>
+        <ul style="list-style-type: disc;"> 
+            <li style="color: blue;"> Thể Thao</li>
+            <ol type="1">
+                <dt>
+                    <li>Bóng rổ</li>
+                    <li>Võ</li>
+                </dt>
+            <dd>
+                <ol type="a">
+                    <li>Taekwondo</li>
+                    <li>Vovinam</li>
+                </ol>
+            </dd>    
+            </ol>
+            <li style="color: blue;">Nghệ Thuật</li>
+            <ol type="1">
+                <dt>
+                <li>Nhiếp ảnh</li>
+                <img src="z6106635096272_0c524e781cbf6f041970cff64fd8e94e.jpg">
+                <img src="z6106574399365_4566b5bb1aef1fcc6c8a2a9890ba6d4b.jpg">
+                <li>Âm nhạc</li>
+                </dt>
+                <dd>
+                    <ol type="a">
+                        <li>Giai điệu Việt Nam mình</li>
+                        <audio controls>
+                            <source src="Giai-Dieu-Viet-Nam-Minh-Tuan-Cry-Masew.mp3">
+                        </audio>
+                        <li>Someone you loved</li>
+                        <audio controls>
+                            <source src="Nhac Chuong Someone You Loved - Lewis Capaldi.mp3">
+                        </audio>
+                        <li>My home</li>
+                        <audio controls>
+                            <source src="nhac-chuong-my-home-masew.mp3">
+                        </audio>
+                    </ol>
+                </dd>
+                <li>Khiêu vũ</li>
+                <video src="Khánh Thi Phan Hiển nhảy Cha Cha Cha - Khanh Thi - Phan Hien (1080p, h264, youtube).mp4"controls></video>
+            </ol>
+        </ul>
+<h1 style="text-align: center;font-size: 20px;color:blueviolet;"><a href="https://l.facebook.com/l.php?u=http%3A%2F%2Fthpttananla.edu.vn%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR2TO_IEvkFER5MypS2aMZ1l48CFByjJFrC-j99XjJ67UlubZe8nOIM1PtE_aem_M2frlg3uLlv37tHsebd0rw&h=AT2J4eLRdr8t7QDhEtzhDEpj01bqQASik3Ju1jBbspGxGRdjsJQ_IJRKWAxdrESaSzNEz6gEcsacpdX2YyTyz3YRkvKlAnaxjMOcr_Q5YjE2m6WxPN2d80dUcCOi7x_we7bFOA">THPT TÂN AN</a></h1>
+    <table border="1" style="width: 30%;">
+            <tr>
+                <th rowspan="2">Phan Ngọc Diễm Quỳnh</th>
+                <th colspan="3"> Điểm thi</th>
+            </tr>
+            <tr>
+                <td>Toán</td>
+                <td>Vật lí</td>
+                <td>Hóa học</td>
+            </tr>
+    </table>
+    <div>
+        <form>
+            <h2 style =color:deeppink><b>Thời trang</b></h2>
+            <label for="cacloaiquanao">Các loại quần áo</label>
+            <input id="cacloaiquanao" type="text"><br>
+            <label for="cacloaigiaydep">Các loại giày dép</label>
+            <input id="cacloaigiaydep" type="text"><br>            
+            <label for="cacloaiphukien">Các loại phụ kiện</label>
+            <input id="cacloaiphukien" type="text"><br>        
+        </form>
+    </div>
+    <div>
+        <h2 style =color:crimson>GIẤY KHÁM SỨC KHỎE</h2>
+        <label for="hoten">Phan Ngọc Diễm Quỳnh</label>
+        <input id="hoten" type="text"><br>
+        <label for="CCCD">CCCD</label>
+        <input id="CCCD" type="number"><br>
+        <label for="ngaysinh">Ngày sinh</label>
+        <input id="ngaysinh" type="date"><br>
+        <label for="gioitinh">Giới tính</label>
+        <select id="gioitinh" name ="gioitinh">
+            <option value ="nam"> Nam</option>
+            <option value ="nu">Nữ</option>       
+        </select><br>  
+    </div>
+    <div>
+        <label for ="tiensubenh">Tiền sử bệnh của đối tượng khám sức khỏe</label>
+        <br>
+        <input id="benhthankinh" type="checkbox"> Bệnh thần kinh<br>
+        <input id="benhmat" type="checkbox"> Bệnh mắt<br>
+        <input id="benhthan" type="checkbox"> Bệnh thận<br>
+        <input id="benhphoi" type="checkbox"> Bệnh phổi<br>
+        <input id="benhtieuhoa" type="checkbox"> Bệnh tiêu hóa <br>
+        <input id="guithongtin" value="Gửi thông tin"type="submit">
+    </div>
+    </body>
+</html>
